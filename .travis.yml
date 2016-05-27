@@ -3,3 +3,9 @@ node_js:
   - "0.10"
 services:
   - mongodb
+  deploy:
+  provider: openshift
+  user: "zvara.ondrej@gmail.com"
+  password: 
+    secure: "eeeVh4TGIIkqOTW6Yafq0tM7zu7wmwTNJpVrIVV3Rd7eysT3+UEFp1ouyOHKmITE6PVNkl50pgB3TfTJDM7Tutcf0f0IGZGRBJzEpOgqVhDGR3Q2Ih+U4eC+egsu/h6Cv9DRs9L9UL998DijdcTJqqYhHuK3JoGY8LHc0CTZg6zSt+V79s3Oa8msiGyqNHdMv7dwK10F7gT0FUuBi/jJL8w6E+Qa2k4cxfz4yJ2Inz9mf2FUgOFrIQZJ6pu5Jgt1ABrl/XUCNSC9ngZHGfJ7yzLMwL6V6l8ROZssrI2UbFesw3CtNvBROAiVxkJNaEs2GxAf4x8bvOkDiZmn9EXxcZWot9iFFZVr8e6VNitb8Fvgo7TKjYtESLRUnmb14OiULxqAymXWGrlLeq44vETqSbkx1PuKuOReQDaMJQr4wFpu5xunnPnF23PUTaiEHN9OD7+oQpkIGCg/LGB506AO6jGGhmkZ8kMILhY2Aj9Hhv0OCHfz//gGGjGOgiJSlDFR1xfkWQo40gxxHHnAM2C2gk/kTRgotX0yYRo4ObdhRZPrnB3/YMd6en2mYToulV4F4D9Z7GDdRI1J1uviGaSp0Krtzn+eaYiP6wEziFImNuiaEx0cgOhrLnKz7eKHAqmb+0mnpssHEF+YbZsKapTHDDJx+mq+nFAovpCSiF7T+yk="
+  domain: "gistest"
