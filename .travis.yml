@@ -1,11 +1,12 @@
 language: node_js
 node_js:
-  - "0.10"
-services:
-  - mongodb
-  deploy:
-    provider: openshift
-    user: "zvara.ondrej@gmail.com"
-    password: 
-      secure: "eeeVh4TGIIkqOTW6Yafq0tM7zu7wmwTNJpVrIVV3Rd7eysT3+UEFp1ouyOHKmITE6PVNkl50pgB3TfTJDM7Tutcf0f0IGZGRBJzEpOgqVhDGR3Q2Ih+U4eC+egsu/h6Cv9DRs9L9UL998DijdcTJqqYhHuK3JoGY8LHc0CTZg6zSt+V79s3Oa8msiGyqNHdMv7dwK10F7gT0FUuBi/jJL8w6E+Qa2k4cxfz4yJ2Inz9mf2FUgOFrIQZJ6pu5Jgt1ABrl/XUCNSC9ngZHGfJ7yzLMwL6V6l8ROZssrI2UbFesw3CtNvBROAiVxkJNaEs2GxAf4x8bvOkDiZmn9EXxcZWot9iFFZVr8e6VNitb8Fvgo7TKjYtESLRUnmb14OiULxqAymXWGrlLeq44vETqSbkx1PuKuOReQDaMJQr4wFpu5xunnPnF23PUTaiEHN9OD7+oQpkIGCg/LGB506AO6jGGhmkZ8kMILhY2Aj9Hhv0OCHfz//gGGjGOgiJSlDFR1xfkWQo40gxxHHnAM2C2gk/kTRgotX0yYRo4ObdhRZPrnB3/YMd6en2mYToulV4F4D9Z7GDdRI1J1uviGaSp0Krtzn+eaYiP6wEziFImNuiaEx0cgOhrLnKz7eKHAqmb+0mnpssHEF+YbZsKapTHDDJx+mq+nFAovpCSiF7T+yk="
-    domain: "gistest"
+- '0.10'
+deploy:
+  provider: openshift
+  user: zvara.ondrej@gmail.com
+  password:
+    secure: oBqrjoNjRvpTonXCy+XXoggXjLLw9kHF+op6h1Evi+c67wA7Yu434Ki0fNT/3iivsQjXEGqD7Td//BJJkW4uvhnC7hmRihLh2qOtyzl1oWlMpI9JdHjKjJDbE2ZkExWJu1r6LIJs0eQFn0LVlJrkuzyNi2FmLLjClz5In8RkZUssr7b9T5bXN7tVXuQci9+2I9rpfUt53iXDq2W4N5SBhSrLs7TbtNiPv/3cDQyPwrejKoLaxNniFFG0hE4mV9TSZ0jXjTRx3fMnSWGlUFdF12w8mS8DzXM2+AzrB1UwMfCkUuID1YDekyHfTG8LcW94nfCipEpqi6J+Jy+w8XH+4q0rhc4juvmPMiZVKPyblih+7ycMM/jxhiGQbkQ0o/SDAUXL30LSrGrKGv0MLlm4e5Gz+bhxsdD8IpD062Utvhcp1VGQ8jv15ceQ0udQRBeZo0mOJYyuBPutPpxMlArWOfbO+eKzGxP5ShOg0EaAOwa8ApBwf5OIirnOrLvV1pfXW1OxZCpHI6fIoxkFPPPccjjW+kvTaVzUu3ZiAsoLf4wyQO1f4nTW6TaK72jgIQUhzEMObtLynWGe+esvrRLIZ4C8vLM7KjEMIh5nG5R18muH7ZiseSxC7dssxpVNOT/1Uzl8sOYvtRlWrMaXQPetjFc1OrMXElWiNfUmI55bEWQ=
+  app: photomap
+  domain: gistest
+  on:
+    repo: zvaraondrej/photomap
